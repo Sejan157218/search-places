@@ -1,0 +1,28 @@
+
+.search-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.search-logo a{
+text-decoration: none;
+font-size: 1.5rem;
+font-weight: 500;
+}
+
+.search-bari{
+    color: #4c5976;
+}
+.search-koi{
+    color: #2ddbb4;
+}
+
+.search-icon{
+    color: #fff;
+    background: linear-gradient(90deg,#3cb4be,#43de7f);
+    border-radius: 5px;
+    width: 50px;
+    padding: .4rem .2em;
+    display: flex;
+    justify-content: center;
+
+}
