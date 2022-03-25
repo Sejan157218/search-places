@@ -26,3 +26,65 @@ font-weight: 500;
     justify-content: center;
 
 }
+
+.auto-com-info{
+    color: #000;
+    box-shadow: 3px 4px 10px -4px rgb(0 0 0 / 35%);
+    background-color: #fdfdfd;
+    top: 4.55em;
+    width: 100%;
+    margin-top: -3px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+
+.auto-com-info li{
+    border-bottom: .7px solid rgba(76,89,118,.2);
+    padding: .8rem 0;
+}
+
+.autocomplete-item{
+    display: flex;
+    margin-top: 7px;
+}
+.location-icon{
+    align-self: center;
+}
+
+.autocomplete-info{
+    color: #000;
+    box-shadow: 3px 4px 10px -4px rgb(0 0 0 / 35%);
+    background-color: #fdfdfd;
+    top: 4.55em;
+    width: 100%;
+    margin-top: -3px;
+}
+
+.autocomplete-info h4{
+    font-size: 1.1rem;
+    margin:8px;
+}
+.autocomplete-info p{
+    opacity: .7;
+    margin:8px;
+    font-weight: 200;
+}
+
+.autocomplete-subtype{
+    font-size: 8pt;
+    margin-top: -4px;
+    display: inline;
+    padding: 2px 4px;
+    background-color: rgba(69,79,99,.08);
+    border-radius: 4px;
+    margin-right: 9px;
+}
+
+.autocomplete-content ul li:hover {
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
